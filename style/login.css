@@ -1,0 +1,131 @@
+.social button{
+  margin-top:20px;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  right: 28px;
+  
+}
+.social button:hover{
+	background-color:#43DF31 ;
+	border-radius:3px;
+}
+
+
+.form-container {
+	
+	padding:50px;
+  max-width: 300px;
+ 
+  padding: 10px;
+  background-color: white;
+}
+
+.form-group{
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-control::placeholder{
+    color: #AEAFB1;
+}
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  margin:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.form-popup a{
+    color: #fff;
+	margin:10px;
+	border:none;
+    background: red;
+    font-size: 25px;
+    font-weight: 200;
+    text-shadow: none;
+    line-height: 27px;
+    height: 25px;
+    width: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 1;
+    position: absolute;
+    left: auto;
+	cursor: pointer;
+    right: 8px;
+    top: 8px;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.form-popup .btn-cancel:hover{
+    color: #fff;
+}
+.btn-cancel:focus{ outline: none;
+ }
+
+.form-popup .btn{
+    color: #fff;
+    background: linear-gradient(to right, #33a3ff, #0675cf, #4cd5ff);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 38px;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    transition: all 0.6s ease 0s;
+}
+.form-popup .btn:hover{
+    color: #fff;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.form-popup .btn:focus{ outline: none;
+ }
+ 
+ 
+.form-popup .checkbox{
+    width: 130px;
+    margin-top: 0;
+    display: inline-block;
+}
+.form-popup .checkbox label{
+    color: #9A9EA9;
+    font-weight: normal;
+}
+.form-popup.checkbox input[type=checkbox]{
+    margin-left: 0;
+}
+.form-popup .forgot-pass{
+    color: #7F7FD5;
+    font-size: 13px;
+    text-align: right;
+    width: calc(100% - 135px);
+    margin: 2px 0;
+    display: inline-block;
+    vertical-align: top;
+    transition: all 0.3s ease 0s;
+}
+.forgot-pass:hover{
+    color: #9A9EA9;
+    text-decoration: underline;
+}
